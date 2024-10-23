@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --leaflet-tile-filter: brightness(0.9) contrast(1.1);
+}
+
+.leaflet-tile {
+  filter: var(--leaflet-tile-filter);
+}
+
+.leaflet-container {
+  background-color: #f8fafc;
+}
